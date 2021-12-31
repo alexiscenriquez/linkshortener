@@ -1,8 +1,6 @@
-
-let shorten=document.querySelector("#shorten")
-let link=document.querySelector("#link")
+const shorten=document.querySelector("#shorten")
+const link=document.querySelector("#link")
 let url
-let form=document.querySelector("form")
 shorten.addEventListener("click",shortenURL)
 
 function shortenURL(){
