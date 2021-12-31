@@ -25,6 +25,7 @@ input[type="text"] {
   padding: 15px;
   border-radius: 50px;
   max-width: 700px;
+  animation: width 2s ease forwards;
 }
 button {
   width: 200px;
@@ -34,6 +35,7 @@ button {
   cursor: pointer;
   color: #97959a;
   font-size: 1.1em;
+
 }
 button:hover {
   animation: background 0.2s ease forwards;
