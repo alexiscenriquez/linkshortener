@@ -27,6 +27,6 @@ fetch(`https://api.tinyurl.com/create`, {
     link.textContent=data.data.tiny_url
   })
   .catch(error =>
-    { console.log(error)
+    { 
     link.textContent="Invalid URL"});
     }
